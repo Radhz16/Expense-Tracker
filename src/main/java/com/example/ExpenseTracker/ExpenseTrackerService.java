@@ -35,6 +35,7 @@ public class ExpenseTrackerService {
     }
 
     public void delete(Long user){
+        System.out.println("The user is deleted");
         expenseTrackerRepository.deleteById(user);
     }
 
